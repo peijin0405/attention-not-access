@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS
+.DS_Store
+
+# Working drafts (keep only final)
+power_analysis/article.md
+power_analysis/article_v2.md
+power_analysis/article copy.md
+
+# Intermediate analysis folders
+publication_analysis_20260625/
+
+# Enrichment / audit outputs
+output/enriched/
+output/reclassification_audit/
+output/medium_article/
+output/final_report/
