@@ -188,45 +188,43 @@ def chart1_attention_power():
         ax.text(xx, yy, txt, fontsize=8, color='#C0C0C0',
                 ha=ha, va='bottom', style='italic', zorder=1)
 
-    # ── Manual label positions (topic → (text_x, text_y, ha, va)) ──
-    # Designed to avoid the overlapping cluster around x≈4, y≈0.75
-    label_pos = {
-        # right-side outliers
-        'AI x Crypto':          (16.2, 0.28, 'left',   'center'),
-        'Ethereum':             (12.2, 0.04, 'left',   'center'),
-        'Consumer Crypto':      (6.3,  0.06, 'left',   'center'),
-        # DeFi / RWA / Infrastructure cluster — stagger vertically
-        'DeFi':                 (7.3,  0.62, 'left',   'top'),
-        'Infrastructure':       (7.3,  0.52, 'left',   'bottom'),
-        'RWA':                  (6.3,  0.73, 'left',   'center'),
-        # Bitcoin / Regulation / Payments cluster — fan out
-        'Bitcoin':              (4.4,  0.90, 'center', 'bottom'),
-        'Regulation':           (2.8,  0.83, 'right',  'center'),
-        'Payments':             (4.4,  0.72, 'left',   'top'),
-        # Security / Creator Economy
-        'Security':             (3.3,  0.76, 'left',   'center'),
-        'Creator Economy':      (2.6,  0.69, 'right',  'center'),
-        # low-x cluster
-        'Institutional Adoption': (0.5, 0.26, 'left',  'center'),
-        'Gaming':               (1.8,  0.32, 'left',   'center'),
-        'Layer2':               (1.8,  0.20, 'left',   'center'),
-        'Stablecoins':          (0.5,  1.03, 'left',   'center'),
-        'Venture Capital':      (1.8,  1.03, 'left',   'center'),
-        'Social Impact':        (3.8,  0.07, 'left',   'center'),
+    # Offsets in screen points (dx, dy) — keeps every label close to its dot.
+    # Co-located pairs are fanned to opposite sides:
+    #   (3, 0.667): Creator Economy ↖  vs  Security ↘
+    #   (3, 0.333): Gaming ↗  vs  Institutional Adoption ↙
+    #   (4, 0.000): Consumer Crypto ↙  vs  (5, 0.000): Social Impact ↘
+    LABEL_OFFSETS = {
+        'AI x Crypto':              (-65, 20),   # far-right point → pull label left-up
+        'Ethereum':                 (  8, -18),  # bottom-right → below
+        'Infrastructure':           (  8,   8),
+        'DeFi':                     (  8,  -8),
+        'RWA':                      (  8,   0),
+        'Payments':                 ( -8,  16),  # (5, 0.60) → up-left (below Bitcoin)
+        'Bitcoin':                  (  8,  16),  # (5, 0.80) → up-right
+        'Social Impact':            (  8, -18),  # (5, 0.00) → below-right
+        'Regulation':               (-10,  16),  # (4, 1.00) → up-left
+        'Consumer Crypto':          (-10, -18),  # (4, 0.00) → below-left
+        'Creator Economy':          (-10,  12),  # (3, 0.667) → up-left
+        'Security':                 (  8, -12),  # (3, 0.667) → down-right
+        'Gaming':                   (  8,  14),  # (3, 0.333) → up-right
+        'Institutional Adoption':   (-10, -14),  # (3, 0.333) → down-left
+        'Education':                (  8,  12),  # (2, 0.00)  → up-right
     }
 
     for t, xi, yi in zip(topics, x, y):
-        if t not in label_pos:
-            ax.annotate(t, (xi, yi), (xi + 0.25, yi + 0.02),
-                        fontsize=8.5, color=C_DARK, va='center')
-            continue
-        tx, ty, ha, va = label_pos[t]
-        # draw arrow only when label is pulled far from point
-        dist = ((tx - xi)**2 + (ty - yi)**2) ** 0.5
-        arrowprops = dict(arrowstyle='-', color='#CCCCCC', lw=0.8) if dist > 1.2 else None
-        ax.annotate(t, xy=(xi, yi), xytext=(tx, ty),
-                    fontsize=8.5, color=C_DARK, ha=ha, va=va,
-                    arrowprops=arrowprops)
+        dx, dy = LABEL_OFFSETS.get(t, (8, 8))
+        ax.annotate(
+            t,
+            xy=(xi, yi),
+            xytext=(dx, dy),
+            textcoords='offset points',
+            fontsize=8.5,
+            color=C_DARK,
+            ha='right' if dx < 0 else 'left',
+            va='center',
+            arrowprops=dict(arrowstyle='-', color='#CCCCCC', lw=0.8,
+                            shrinkA=0, shrinkB=5),
+        )
 
     legend_handles = [
         mpatches.Patch(color=C_FIN, label='Financial Web3'),
