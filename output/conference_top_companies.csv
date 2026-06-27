@@ -1,0 +1,200 @@
+company_id,company_name,number_of_sessions,number_of_speakers,topic_diversity,company_influence_score
+company_0018,Association for Women in Cryptocurrency,5,1,4,31.0
+company_0043,Coinbase,3,3,3,30.0
+company_0031,Blockchain Futurist Conference,5,2,2,29.0
+company_0111,NFT-VIP.io,4,1,3,25.0
+company_0045,Collas Crill LLP,3,2,2,23.0
+company_0153,Sarson Funds,3,2,2,23.0
+company_0154,Secret Network,3,2,2,23.0
+company_0044,Cointelegraph,3,1,3,22.0
+company_0050,CryptoChicks & Metis,3,1,3,22.0
+company_0174,The Crypto Strategy Academy,4,1,2,22.0
+company_0191,Women in Blockchain Canada,3,1,3,22.0
+company_0016,Argentum AI,2,2,2,20.0
+company_0027,BitBasel,2,2,2,20.0
+company_0138,Purple Horizons: Marketing Innovation Lab,2,2,2,20.0
+company_0166,Spree.Finance,2,2,2,20.0
+company_0059,Doginal Dogs,2,2,1,17.0
+company_0171,Tangem,2,2,1,17.0
+company_0023,BVI Financial Services Commission,2,1,2,16.0
+company_0024,Ben Franklin Digital Reserve,2,1,2,16.0
+company_0053,Decrypt,2,1,2,16.0
+company_0077,Genzio Media,2,1,2,16.0
+company_0079,Gowling WLG,2,1,2,16.0
+company_0082,Harness All Possibilities,2,1,2,16.0
+company_0086,Impact Theory,2,1,2,16.0
+company_0109,Mysten Labs,2,1,2,16.0
+company_0115,Nexa: Bitcoin Unlimited,2,1,2,16.0
+company_0145,Red Light Holland,2,1,2,16.0
+company_0146,ReserveOne,2,1,2,16.0
+company_0165,SporkDAO and ETHDenver,2,1,2,16.0
+company_0010,American Bitcoin,1,2,1,14.0
+company_0056,Digital Ascension Group,1,2,1,14.0
+company_0005,APX Lending,2,1,1,13.0
+company_0012,Andrea Crespi Studio,2,1,1,13.0
+company_0020,Author,2,1,1,13.0
+company_0022,BTCS Inc.,2,1,1,13.0
+company_0036,Bloxcross Inc.,2,1,1,13.0
+company_0039,Cayman Finance,2,1,1,13.0
+company_0048,Crypto Coin Show,2,1,1,13.0
+company_0054,DiamondLake,2,1,1,13.0
+company_0065,Electroneum,2,1,1,13.0
+company_0066,Eliza Labs,2,1,1,13.0
+company_0095,Leeward,2,1,1,13.0
+company_0103,Maple Finance,2,1,1,13.0
+company_0116,NextTech Ventures,2,1,1,13.0
+company_0118,NoIDPay Inc.,2,1,1,13.0
+company_0121,OKX,2,1,1,13.0
+company_0124,One Ocean Foundation,2,1,1,13.0
+company_0130,Parfin,2,1,1,13.0
+company_0141,QuickNode,2,1,1,13.0
+company_0143,RYKI Ltd.,2,1,1,13.0
+company_0144,Rarible,2,1,1,13.0
+company_0156,Sequence,2,1,1,13.0
+company_0179,Transak,2,1,1,13.0
+company_0189,Web3Lab,2,1,1,13.0
+company_0195,ZH Media,2,1,1,13.0
+company_0194,Youth I-t Program CryptoChicks,2,0,2,12.0
+company_0001,#NotAnotherBitcoinPodcast,1,1,1,10.0
+company_0002,$RSOL Movement Meme,1,1,1,10.0
+company_0003,A16z,1,1,1,10.0
+company_0004,AML Incubator,1,1,1,10.0
+company_0006,Acronym Foundation,1,1,1,10.0
+company_0007,AeraTech,1,1,1,10.0
+company_0008,Algorand Foundation,1,1,1,10.0
+company_0009,Amazon Web Services,1,1,1,10.0
+company_0011,Ampli,1,1,1,10.0
+company_0013,Angel Ai,1,1,1,10.0
+company_0014,Apex,1,1,1,10.0
+company_0015,Appdome,1,1,1,10.0
+company_0017,Artizyou + BIPQUANTUM,1,1,1,10.0
+company_0019,Assure DeFi,1,1,1,10.0
+company_0021,Avanti Way Realty,1,1,1,10.0
+company_0025,Berkshire Hathaway HS,1,1,1,10.0
+company_0026,"Bette Hochberger, CPA, CGMA & Associates",1,1,1,10.0
+company_0028,Bitcoin Butik,1,1,1,10.0
+company_0029,Bitford Digital,1,1,1,10.0
+company_0030,BlockQuake,1,1,1,10.0
+company_0032,Blockchain Institute of Technology,1,1,1,10.0
+company_0033,Blockchain Legal Institute,1,1,1,10.0
+company_0034,Blockchain North,1,1,1,10.0
+company_0035,Blockstreet,1,1,1,10.0
+company_0037,"Board F Member, Blockchain Game Alliance",1,1,1,10.0
+company_0038,CETI,1,1,1,10.0
+company_0040,Chapo,1,1,1,10.0
+company_0041,City of Maimi's Department of Economic Innovation & Development,1,1,1,10.0
+company_0042,CoinList,1,1,1,10.0
+company_0046,"Counsel, Lewis Baach Kaufmann Middlemiss",1,1,1,10.0
+company_0047,CreateHER Fest,1,1,1,10.0
+company_0049,Crypto Kids!,1,1,1,10.0
+company_0051,DAO UTAH,1,1,1,10.0
+company_0052,DeLorean,1,1,1,10.0
+company_0055,DigiShares,1,1,1,10.0
+company_0057,Digital Spenders Club,1,1,1,10.0
+company_0058,Disruptor DAO,1,1,1,10.0
+company_0060,Dolphinze,1,1,1,10.0
+company_0061,Dune,1,1,1,10.0
+company_0062,E11EVEN Miami,1,1,1,10.0
+company_0063,EVERY.MEME,1,1,1,10.0
+company_0064,EY,1,1,1,10.0
+company_0067,"Executive Director, Miami-Dade Digital Commission",1,1,1,10.0
+company_0068,F3 Funds,1,1,1,10.0
+company_0069,FP Block,1,1,1,10.0
+company_0070,Fhenix,1,1,1,10.0
+company_0071,Figment Inc.,1,1,1,10.0
+company_0072,Filecoin Foundation,1,1,1,10.0
+company_0073,Florida House of Representatives,1,1,1,10.0
+company_0074,Florida-25,1,1,1,10.0
+company_0075,"Formation Ai Labs, Inc.",1,1,1,10.0
+company_0076,GeniusRoom,1,1,1,10.0
+company_0078,Go Arlo,1,1,1,10.0
+company_0080,Grinhaus Law Firm,1,1,1,10.0
+company_0081,HODL Markets Inc,1,1,1,10.0
+company_0083,Heir.es,1,1,1,10.0
+company_0084,Hut 8,1,1,1,10.0
+company_0085,HyperCycle.ai,1,1,1,10.0
+company_0087,InOrbyt,1,1,1,10.0
+company_0088,Infineo,1,1,1,10.0
+company_0089,Interstellar Digital,1,1,1,10.0
+company_0090,InvestorBrandNetwork,1,1,1,10.0
+company_0091,K9 Finance,1,1,1,10.0
+company_0092,KWARXS,1,1,1,10.0
+company_0093,Kurkuma,1,1,1,10.0
+company_0094,Kuvi.ai,1,1,1,10.0
+company_0096,Legion,1,1,1,10.0
+company_0097,"Lightspeed Crypto Services, LLC",1,1,1,10.0
+company_0098,Look,1,1,1,10.0
+company_0099,LumaLex Law,1,1,1,10.0
+company_0100,Luna Media Corporation,1,1,1,10.0
+company_0101,MMH Technology Group,1,1,1,10.0
+company_0102,Mainsail Family Office Collective,1,1,1,10.0
+company_0104,Marketing Lead,1,1,1,10.0
+company_0105,"Mayor, Mayor of Hollywood, FL.",1,1,1,10.0
+company_0106,Meanwhile,1,1,1,10.0
+company_0107,Messari,1,1,1,10.0
+company_0108,MoonPay,1,1,1,10.0
+company_0110,N3on Media,1,1,1,10.0
+company_0112,NFTCLT,1,1,1,10.0
+company_0113,Natcrypto Realty,1,1,1,10.0
+company_0114,New Friendship Tech,1,1,1,10.0
+company_0117,Nexus F Labs,1,1,1,10.0
+company_0119,Notabene,1,1,1,10.0
+company_0120,OG Labs,1,1,1,10.0
+company_0122,OLAGG,1,1,1,10.0
+company_0123,OPTN Labs,1,1,1,10.0
+company_0125,OpenSea,1,1,1,10.0
+company_0126,Optio Blockchain,1,1,1,10.0
+company_0127,Oregon Blockchain Group,1,1,1,10.0
+company_0128,PTT COIN,1,1,1,10.0
+company_0129,Palladium Network,1,1,1,10.0
+company_0131,Peace Through Trade Blockchain & PTT Coin,1,1,1,10.0
+company_0132,Phala Cloud,1,1,1,10.0
+company_0133,Pledge Protocol,1,1,1,10.0
+company_0134,PriceDepth,1,1,1,10.0
+company_0135,Project Eleven,1,1,1,10.0
+company_0136,Pudgy Penguins,1,1,1,10.0
+company_0137,Pulse Digital Marketing,1,1,1,10.0
+company_0139,QUANTUM TCG,1,1,1,10.0
+company_0140,Quantum Block Holdings,1,1,1,10.0
+company_0142,RAZE,1,1,1,10.0
+company_0147,Rhythm,1,1,1,10.0
+company_0148,Rilea Group,1,1,1,10.0
+company_0149,SDM,1,1,1,10.0
+company_0150,SMOTHER,1,1,1,10.0
+company_0151,Sadis & Goldberg LLP,1,1,1,10.0
+company_0152,Sapien,1,1,1,10.0
+company_0155,Sei Development Foundation,1,1,1,10.0
+company_0157,SheCrypto,1,1,1,10.0
+company_0158,Shibwomen/Queens of Crypto,1,1,1,10.0
+company_0159,Shiro Neko,1,1,1,10.0
+company_0160,SingularityNet,1,1,1,10.0
+company_0161,SingularityNet and ASI Alliance,1,1,1,10.0
+company_0162,Sleap.io,1,1,1,10.0
+company_0163,Spaces Host,1,1,1,10.0
+company_0164,SpearTrades,1,1,1,10.0
+company_0167,Stocktwits,1,1,1,10.0
+company_0168,Striped Pig Distillery,1,1,1,10.0
+company_0169,Sullivan Hart LLP,1,1,1,10.0
+company_0170,Swarm,1,1,1,10.0
+company_0172,Tangem Pay,1,1,1,10.0
+company_0173,Tether and WAX,1,1,1,10.0
+company_0175,ThreeSquared,1,1,1,10.0
+company_0176,Thrust,1,1,1,10.0
+company_0177,Titl,1,1,1,10.0
+company_0178,Totem Grid,1,1,1,10.0
+company_0180,Truflation,1,1,1,10.0
+company_0181,Trusted Smart Chain,1,1,1,10.0
+company_0182,Vault12,1,1,1,10.0
+company_0183,Venusventures Inc.,1,1,1,10.0
+company_0184,Virgo Group,1,1,1,10.0
+company_0185,W3BC Media,1,1,1,10.0
+company_0186,WOLF Bitcoin,1,1,1,10.0
+company_0187,Wachsman,1,1,1,10.0
+company_0188,Web3 Enabler,1,1,1,10.0
+company_0190,White Star Capital,1,1,1,10.0
+company_0192,WonderFi,1,1,1,10.0
+company_0193,XION,1,1,1,10.0
+company_0196,Zyphe,1,1,1,10.0
+company_0197,basketball.fun,1,1,1,10.0
+company_0198,eToro,1,1,1,10.0
+company_0199,ether.fi,1,1,1,10.0
