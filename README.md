@@ -1,6 +1,8 @@
 # Attention Is Not Access
 ### A Structural Analysis of the 2025 Blockchain Futurist Conference Agenda
 
+![2025 Blockchain Futurist Conference — Agenda Word Cloud](power_analysis/figures/wordcloud.png)
+
 ---
 
 ## About This Project
